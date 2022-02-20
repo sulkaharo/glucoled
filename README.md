@@ -8,10 +8,12 @@ You should be able to use addressible LED fan to build this. ARGB leds use 5 vol
  
 Instructions on how to install Node on a Pi Zero W can be found here: https://danidudas.medium.com/how-to-install-node-js-and-npm-on-raspberry-pi-zero-or-other-arm-v6-device-220d0392a426
 
-`apt-get update`
-`apt-get install git`
-`npm install rpi-ws281x`
-`git clone https://github.com/sulkaharo/glucoled`
+```
+apt-get update
+apt-get install git
+npm install rpi-ws281x
+git clone https://github.com/sulkaharo/glucoled
+```
 
 ## Running the script:
 
